@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Чамд зориулсан cinematic цэцгийн баглаа.">
+  <title>Чамд зориулсан coding</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="intro" id="intro" aria-label="Нээлт">
+      <div class="portal" aria-hidden="true"></div>
+      <button class="open-button" id="openButton" type="button">
+        <span>Энд дарна уу</span>
+      </button>
+    </section>
+
+    <section class="scene" id="scene" aria-hidden="true">
+      <div class="light" aria-hidden="true"></div>
+      <div class="vignette" aria-hidden="true"></div>
+      <canvas id="bouquetCanvas" aria-label="Аажмаар дэлгэрч буй ягаан, крем өнгийн цэцгийн баглаа"></canvas>
+      <p class="message" id="message" aria-label="Үүнийг Чамд 💐">
+        <span class="letter" style="--i:0" aria-hidden="true">Ү</span><span class="letter" style="--i:1" aria-hidden="true">ү</span><span class="letter" style="--i:2" aria-hidden="true">н</span><span class="letter" style="--i:3" aria-hidden="true">и</span><span class="letter" style="--i:4" aria-hidden="true">й</span><span class="letter" style="--i:5" aria-hidden="true">г</span><span class="space" style="--i:6" aria-hidden="true"> </span><span class="letter" style="--i:7" aria-hidden="true">Ч</span><span class="letter" style="--i:8" aria-hidden="true">а</span><span class="letter" style="--i:9" aria-hidden="true">м</span><span class="letter" style="--i:10" aria-hidden="true">д</span><span class="space" style="--i:11" aria-hidden="true"> </span><span class="flower" style="--i:12" aria-hidden="true">💐</span>
+      </p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
